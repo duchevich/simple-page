@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	margin-bottom: 1px;
+}
+hr{
+	margin: 2px;
+}
+header,
+nav,
+main, 
+footer{
+	margin: 0 auto;
+	width: 1170px;
+}
+.header-top,
+footer{
+	background: #828282;
+}
+.logo{
+	padding: 0 20px;
+	float: left;
+}
+.header-top>.head-p1,
+footer > .head-p1{
+	padding: 17px 0;
+	color: white;
+	font-size: 10px;
+	float: left;
+}
+.header-top > .head-p2,
+footer > .head-p2{
+	padding: 10px 0;
+	color: white;
+	font-size: 24px;
+	text-align: right;
+	padding-right: 20px;
+}
+.header-bottom{
+	position: relative;
+}
+.globus{
+	position: absolute;
+}
+.head-h{
+	color: #568ecc;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding: 53px 0;
+	letter-spacing: 2px;
+}
+nav{
+	background: #568ecc;
+	margin-bottom: 15px;
+}
+nav>a{
+	display: inline-block;
+	padding: 25px 46px 25px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+}
+nav>a:active,
+nav>a:visited{
+	text-decoration: underline;
+}
+.section-header{
+	float: left;
+}
+h1{
+	margin: 13px 0;
+}
+.map{
+	position: absolute;
+	right: 0;
+}
+article{
+	margin: 0 20px;
+}
+.section-header > p{
+	margin: 0;
+}
+.container{
+	width: 1130px;
+	position: relative;
+	overflow: hidden;
+}
+ul{
+	display: block;
+	float: left;
+}
+.gerb{
+	margin-left: 30px;
+}
+caption{
+	caption-side: bottom;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+}
+th{
+	background: #e8e8e8;
+	font-size: 14px;
+	padding: 14px;
+}
+td{
+	border: 1px solid #a2a2a2;
+	width: 210px;
+	text-align: center;
+	font-size: 14px;
+	padding: 14px;
+}
+figure{
+	float: left;
+	margin: 16px 30px 16px 0;
+}
+figcaption{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+footer{
+	overflow: hidden;
+}
+footer > .logo{
+	margin: 25px 20px;
+	padding: 0;
+}
+footer > .head-p1{
+	text-align: center;
+	float: none;
+	padding: 0;
+	font-size: 12px;
+}
+.head-p2-footer{
+	margin: 40px 20px 26px 0;
+	padding: 0;
+	
+}
+footer > .head-p2{
+	padding: 0;
+}
